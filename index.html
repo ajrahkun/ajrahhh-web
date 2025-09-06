@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- SEO -->
+  <meta name="description" content="Jraa Senpai - Web Developer, UI Designer & Bot Engineer">
+  <meta name="keywords" content="Jraa Senpai, Web Developer, UI Designer, Bot Engineer">
+  <meta name="author" content="Azra">
+
+  <!-- Theme & Appearance -->
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Jraa Hikari - CafeTime">
+  <meta property="og:description" content="inilah my website 😹">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ajrahhh.my.id/">
+  <meta property="og:image" content="https://ajrahhh.my.id/source/favicon.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jraa Hikari - CafeTime">
+  <meta name="twitter:description" content="inilah my website 😹">
+  <meta name="twitter:image" content="https://ajrahhh.my.id/source/favicon.jpg">
+
+  <!-- Favicon & App Icons -->
+  <link rel="icon" type="image/png" href="./source/favicon.jpg">
+  <link rel="shortcut icon" type="image/png" href="./source/favicon.jpg">
+  <link rel="apple-touch-icon" href="./source/favicon.jpg">
+  
+  <!-- Title -->
+  <title>why are you looking at me?</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <nav class="fixed top-0 left-0 w-full flex justify-between items-center py-2 px-8 bg-white/30 backdrop-blur-md shadow z-50">
+    <div class="h-12">
+        <a href="https://ajrahhh.my.id/" target="_blank"><img src="./source/logo.png" class="h-full object-contain" draggable="false" oncontextmenu="return false;" style="-webkit-user-drag:none; user-drag:none;"></a>
+    </div>
+    <div>
+        <button id="toolBtn" class="flex items-center gap-1 px-2 py-1 border border-black text-black rounded hover:bg-black/10 active:bg-black/20 transition-colors duration-200 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+            Menu
+        </button>
+    </div>
+  </nav>
+
+  <div id="loading" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+    <div class="w-8 h-8 border-4 border-t-black border-b-black border-l-gray-200 border-r-gray-200 rounded-full animate-spin"></div>
+  </div>
+
+  <div id="overlay" class="fixed inset-0 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300 z-50"></div>
+
+  <div class="h-20"></div>
+    <div id="sideMenu" class="fixed top-0 right-0 h-full w-64 bg-white shadow-lg overflow-y-auto transform translate-x-full transition-transform duration-300 z-50">
+
+    <div class="flex justify-end p-4">
+        <button id="closeBtn" class="text-gray-600 hover:text-gray-900 text-xl">&times;</button>
+    </div>
+    <nav class="flex flex-col space-y-4 px-6">
+        <a href="https://linktr.ee/sorawangyy" target="_blank" draggable="false" class="w-full flex items-center justify-center gap-2 px-4 py-2 border border-black text-black rounded hover:bg-black/10 active:bg-black/20 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+            Linktree.
+        </a>
+        <a href="https://kagenoufamily.my.id/" target="_blank" draggable="false" class="w-full flex items-center justify-center gap-2 px-4 py-2 border border-black text-black rounded hover:bg-black/10 active:bg-black/20 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+            Kagenou.
+        </a>
+    </nav>
+  </div>
+
+  <div class="min-h-screen flex flex-col items-center justify-start pt-32 md:pt-6 space-y-6">
+    <div class="w-32 h-32">
+      <img src="./source/ikon.jpg" class="w-full h-full object-cover rounded-full shadow-lg" draggable="false" oncontextmenu="return false;" style="-webkit-user-drag:none; user-drag:none;">
+    </div>
+
+    <div class="flex space-x-2">
+      <span class="px-3 py-1 border-2 border-black rounded-full text-sm font-medium">Coding</span>
+      <span class="px-3 py-1 border-2 border-black rounded-full text-sm font-medium">Editor</span>
+      <span class="px-3 py-1 border-2 border-black rounded-full text-sm font-medium">Anime</span>
+    </div>
+
+    <h1 class="text-4xl font-bold">Jraa Senpai <3</h1>
+    <p class="text-base sm:text-lg text-gray-600 text-center px-4 sm:px-8 max-w-xl mt-2">
+      Haii, saya seorang Developer Web & UI Designer yang juga suka membuat Bot WhatsApp.
+      Saya suka mengeksplor hal - hal baru di dunia teknologi, anime, dan editing. Salam kenal!
+    </p>
+
+    <div class="grid grid-cols-2 gap-4 mt-6">
+      <div class="px-4 py-2 rounded-lg border border-black text-center font-medium">UI Design</div>
+      <div class="px-4 py-2 rounded-lg border border-black text-center font-medium">Bot Engineer</div>
+      <div class="px-4 py-2 rounded-lg border border-black text-center font-medium">Web Developer</div>
+      <div class="px-4 py-2 rounded-lg border border-black text-center font-medium">Editing</div>
+    </div>
+
+    <p class="mt-6 text-gray-500 italic text-center">“ Selalu belajar, selalu berkembang. ”</p>
+
+    <div class="mt-6 flex justify-center items-center space-x-6">
+        <a href="https://www.youtube.com/@sorawangyy" target="_blank" draggable="false" class="text-gray-700 hover:text-red-600 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a2.982 2.982 0 0 0-2.103-2.103C19.522 3.5 12 3.5 12 3.5s-7.522 0-9.395.583a2.982 2.982 0 0 0-2.103 2.103C.5 8.06.5 12 .5 12s0 3.94.002 5.814a2.982 2.982 0 0 0 2.103 2.103C4.478 20.5 12 20.5 12 20.5s7.522 0 9.395-.583a2.982 2.982 0 0 0 2.103-2.103C23.5 15.94 23.5 12 23.5 12s0-3.94-.002-5.814zM9.75 15.02V8.98l6.5 3.02-6.5 3.02z"/>
+            </svg>
+        </a>
+
+        <a href="https://www.tiktok.com/@sorawangyy" target="_blank" draggable="false" class="text-gray-700 hover:text-black transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 449.45 515.38">
+                <path fill-rule="nonzero" d="M382.31 103.3c-27.76-18.1-47.79-47.07-54.04-80.82-1.35-7.29-2.1-14.8-2.1-22.48h-88.6l-.15 355.09c-1.48 39.77-34.21 71.68-74.33 71.68-12.47 0-24.21-3.11-34.55-8.56-23.71-12.47-39.94-37.32-39.94-65.91 0-41.07 33.42-74.49 74.48-74.49 7.67 0 15.02 1.27 21.97 3.44V190.8c-7.2-.99-14.51-1.59-21.97-1.59C73.16 189.21 0 262.36 0 352.3c0 55.17 27.56 104 69.63 133.52 26.48 18.61 58.71 29.56 93.46 29.56 89.93 0 163.08-73.16 163.08-163.08V172.23c34.75 24.94 77.33 39.64 123.28 39.64v-88.61c-24.75 0-47.8-7.35-67.14-19.96z"/>
+            </svg>
+        </a>
+
+        <a href="https://www.instagram.com/ajrah_kunnz" target="_blank" draggable="false" class="text-gray-700 hover:text-pink-500 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm8.75 2a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
+            </svg>
+        </a>
+    </div>
+  </div>
+
+  <div class="w-full overflow-hidden">
+    <svg class="w-full h-16 md:h-24" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path 
+        d="M0,192L60,202.7C120,213,240,235,360,229.3C480,224,600,192,720,170.7C840,149,960,139,1080,149.3C1200,160,1320,192,1380,208L1440,224" 
+        fill="none" 
+        stroke="#000" 
+        stroke-width="2"
+      ></path>
+    </svg>
+  </div>
+
+  <section id="project" class="w-full py-16 flex flex-col items-center px-4 sm:px-8">
+    <h2 class="text-3xl font-bold mb-8 text-gray-900 text-center">Proyek apa yang saya buat?</h2>
+
+    <div class="w-full max-w-xl space-y-6">
+      <div class="p-4 bg-white rounded-xl shadow-md border border-gray-200 flex flex-col items-center text-center">
+        <h3 class="font-bold text-xl mb-1">Proyek Bot WhatsApp Sumika dengan AI</h3>
+        <p class="text-gray-600 text-sm">
+          Bot WhatsApp AI yang berjalan dengan Node.js.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="w-full overflow-hidden">
+    <svg class="w-full h-16 md:h-24" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path 
+        d="M0,160 C360,200 1080,120 1440,160" 
+        fill="none" 
+        stroke="#000" 
+        stroke-width="2"
+      ></path>
+    </svg>
+  </div>
+
+  <section id="journey" class="w-full py-16 flex flex-col items-center px-4 sm:px-8">
+    <h2 class="text-3xl font-bold mb-12 text-gray-900 text-center">Pendidikan & Perjalanan</h2>
+
+    <div class="relative w-full max-w-xl">
+      <div class="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-gray-300"></div>
+
+      <div class="mb-8 flex flex-col items-center relative">
+        <div class="bg-white rounded-xl shadow-md p-4 w-80 z-10 text-center">
+          <h3 class="font-bold text-xl mb-1">TK</h3>
+          <p class="text-gray-600 text-sm">
+            Dari TK, saya belum bisa apa - apa, tetapi mulai mengenal dunia di sekitar saya.
+          </p>
+        </div>
+        <div class="w-4 h-4 bg-blue-500 rounded-full absolute left-1/2 transform -translate-x-1/2 top-1/2"></div>
+      </div>
+
+      <div class="mb-8 flex flex-col items-center relative">
+        <div class="bg-white rounded-xl shadow-md p-4 w-80 z-10 text-center">
+          <h3 class="font-bold text-xl mb-1">SD</h3>
+          <p class="text-gray-600 text-sm">
+            Mulai bermimpi menjadi editor dan web developer sambil belajar dasar - dasar digital.
+          </p>
+        </div>
+        <div class="w-4 h-4 bg-green-500 rounded-full absolute left-1/2 transform -translate-x-1/2 top-1/2"></div>
+      </div>
+
+      <div class="mb-8 flex flex-col items-center relative">
+        <div class="bg-white rounded-xl shadow-md p-4 w-80 z-10 text-center">
+          <h3 class="font-bold text-xl mb-1">SMP</h3>
+          <p class="text-gray-600 text-sm">
+            Saya mulai mengikuti kontes atau lomba yang berbau digital dan kecerdasan buatan.
+          </p>
+        </div>
+        <div class="w-4 h-4 bg-yellow-500 rounded-full absolute left-1/2 transform -translate-x-1/2 top-1/2"></div>
+      </div>
+
+      <div class="flex flex-col items-center relative">
+        <div class="bg-white rounded-xl shadow-md p-4 w-80 z-10 text-center">
+          <h3 class="font-bold text-xl mb-1">SMK</h3>
+          <p class="text-gray-600 text-sm">
+            Mulai menyiapkan mental dan skill untuk masa depan sebagai web developer dan editor.
+          </p>
+        </div>
+        <div class="w-4 h-4 bg-purple-500 rounded-full absolute left-1/2 transform -translate-x-1/2 top-1/2"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="w-full overflow-hidden">
+    <svg class="w-full h-16 md:h-24" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path 
+        d="M0,200 C480,100 960,300 1440,150" 
+        fill="none" 
+        stroke="#000" 
+        stroke-width="2"
+      ></path>
+    </svg>
+  </div>
+
+  <section id="contact" class="w-full py-16 flex flex-col items-center px-4 sm:px-8">
+    <h2 class="text-3xl font-bold mb-6 text-gray-900 text-center">Hubungi Saya</h2>
+
+    <p class="text-gray-600 text-center mb-6 max-w-md">
+      Ingin menghubungi saya? Email saya dibawah!
+    </p>
+
+    <a href="mailto:haiakuazra@gmail.com" class="flex items-center justify-center px-8 py-3 bg-gray-400 text-white rounded-lg hover:bg-gray-500 active:bg-gray-600 focus:bg-gray-500 transition gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m0 8V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2z"/>
+        </svg>
+        Email
+    </a>
+  </section>
+
+  <footer class="w-full py-6 flex flex-col items-center justify-center">
+    <p class="text-gray-600 text-sm text-center">
+        &copy; 2025 Azra. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
