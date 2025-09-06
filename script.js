@@ -38,15 +38,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 window.addEventListener('load', () => {
   const loading = document.getElementById('loading');
-  if (localStorage.getItem('loadedBefore')) {
-    loading.style.display = 'none';
-  } else {
-    loading.style.opacity = '0';
-    loading.style.transition = 'opacity 0.5s';
-    setTimeout(() => loading.style.display = 'none', 500);
-    localStorage.setItem('loadedBefore', 'true');
-  }
+  loading.style.transition = 'opacity 0.5s';
+  loading.style.opacity = '0';
+  setTimeout(() => loading.style.display = 'none', 500);
 });
+
 const fullTitle = "Jraa Senpai";
 let index = 1;
 let forward = true;
