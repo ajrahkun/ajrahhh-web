@@ -31,5 +31,10 @@ It features **donation modal pop-ups**, responsive layouts, and a clean folder s
 
 ---
 
-## Folder Structure
+### Explanation
 
+- **index.html** → Main landing page of Jraa UI.  
+- **assets/css/** → All styling in a separate folder for easier maintenance.  
+- **assets/js/** → JavaScript for modal, pop-ups, and UI interactions.  
+- **assets/image/** → All images including QRIS and UI preview screenshot. 
+- **assets/font/** → Local fonts for consistent typography.  
