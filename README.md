@@ -1,33 +1,24 @@
 # Jraa UI
 
-**Jraa UI** is a modern front-end project designed to create an **interactive and responsive user interface**.  
-It features **donation modal pop-ups**, responsive layouts, and a clean folder structure for easy maintenance.
+**Jraa UI** is a simple and minimalist front-end web project.  
+It is lightweight, easy to use, and focuses on a clean and straightforward user interface.
 
 ---
 
 ## Preview
 
 ![Jraa UI Screenshot](https://ajrahhh.my.id/assets/image/ui.png)  
-*Screenshot of the Jraa UI showing the donation modal with QRIS and payment options.*
+*Clean and minimalist interface of Jraa UI.*
 
 ---
 
 ## Features
 
-- **Responsive Layout**  
-  Optimized for **mobile, tablet, and desktop** screens.
+- **Simple and Minimalist**  
+  The web is clean and straightforward, without too many effects or elements.
 
-- **Donation Modal Pop-up**  
-  Supports QRIS, Dana, Gopay, and Pulsa payment methods.
-
-- **Organized Folder Structure**  
-  Separate folders for CSS, JS, images, fonts, and components.
-
-- **Custom Fonts**  
-  Local fonts like SF Pro for consistent UI appearance.
-
-- **Easy to Extend**  
-  Modular components for reusability and quick updates.
+- **Lightweight**  
+  Optimized to load fast and run smoothly in your browser.
 
 ---
 
