@@ -7,7 +7,7 @@ It features **donation modal pop-ups**, responsive layouts, and a clean folder s
 
 ## Preview
 
-![Jraa UI Screenshot](https://ajrahhh.my.id/assets/image/logo.png)  
+![Jraa UI Screenshot](https://ajrahhh.my.id/assets/image/ui.png)  
 *Screenshot of the Jraa UI showing the donation modal with QRIS and payment options.*
 
 ---
