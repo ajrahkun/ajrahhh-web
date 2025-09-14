@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Penghasilan</title>
+  <link rel="stylesheet" href="./assets/css/income.css">
+</head>
+<body>
+  <h1>Daftar Penghasilan Reseller</h1>
+
+<div class="table-container">
+  <table class="income-table">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Penghasilan</th>
+      </tr>
+    </thead>
+    <tbody id="income-body">
+      <!-- Data JSON masuk sini -->
+    </tbody>
+  </table>
+</div>
+
+
+  <script>
+  fetch('./database/reseller.json')
+    .then(response => response.json())
+    .then(data => {
+      let tbody = document.getElementById('income-body');
+      tbody.innerHTML = "";
+
+      // Urutkan data berdasarkan nama (A-Z)
+      data.sort((a, b) => a.nama.localeCompare(b.nama, 'id', { sensitivity: 'base' }));
+
+      data.forEach((item, index) => {
+        let row = `
+          <tr>
+            <td>${index + 1}</td>
+            <td>${item.nama}</td>
+            <td>Rp ${item.penghasilan.toLocaleString('id-ID')}</td>
+          </tr>
+        `;
+        tbody.innerHTML += row;
+      });
+    })
+    .catch(error => console.error("Gagal load JSON:", error));
+</script>
+</body>
+</html>
