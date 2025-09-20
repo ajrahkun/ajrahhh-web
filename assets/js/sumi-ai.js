@@ -182,8 +182,8 @@ function showDevtoolsWarning() {
   overlay.id = 'devtools-warning';
   overlay.innerHTML = `
     <div class="warning-box">
-      <h2>⚠️ Peringatan!</h2>
-      <p>DevTools terdeteksi. Tab akan crash.</p>
+      <h2>Mau ngapain om :D</h2>
+      <p>DevTools terdeteksi!</p>
     </div>
   `;
   document.body.appendChild(overlay);
