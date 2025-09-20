@@ -202,12 +202,3 @@ setInterval(() => {
     showDevtoolsWarning();
   }
 }, 1000);
-
-document.addEventListener('copy', e => e.preventDefault());
-document.addEventListener('cut', e => e.preventDefault());
-document.addEventListener('selectstart', e => e.preventDefault());
-
-document.addEventListener('contextmenu', e => e.preventDefault());
-document.addEventListener('touchstart', e => {
-  if (e.touches.length > 1) e.preventDefault();
-}, { passive: false });
