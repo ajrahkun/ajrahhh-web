@@ -1,1 +1,213 @@
-const _0x114d06=_0x466d;(function(_0x17093b,_0x2351a8){const _0x499aa2=_0x466d,_0x14800b=_0x17093b();while(!![]){try{const _0xc5c3c2=-parseInt(_0x499aa2(0x13c))/0x1*(-parseInt(_0x499aa2(0x10f))/0x2)+parseInt(_0x499aa2(0x154))/0x3+parseInt(_0x499aa2(0x116))/0x4*(parseInt(_0x499aa2(0x137))/0x5)+parseInt(_0x499aa2(0x107))/0x6*(parseInt(_0x499aa2(0x129))/0x7)+-parseInt(_0x499aa2(0x131))/0x8*(-parseInt(_0x499aa2(0x144))/0x9)+parseInt(_0x499aa2(0x123))/0xa+-parseInt(_0x499aa2(0x14e))/0xb*(parseInt(_0x499aa2(0x13f))/0xc);if(_0xc5c3c2===_0x2351a8)break;else _0x14800b['push'](_0x14800b['shift']());}catch(_0x46ec45){_0x14800b['push'](_0x14800b['shift']());}}}(_0x2660,0xc2076));const menuBtn=document[_0x114d06(0x11e)](_0x114d06(0x10a)),menuPopover=document[_0x114d06(0x115)](_0x114d06(0x12b)),chatContainer=document[_0x114d06(0x115)](_0x114d06(0x121)),chatForm=document[_0x114d06(0x115)](_0x114d06(0x11d)),chatInput=document[_0x114d06(0x115)](_0x114d06(0x103)),buildApiUrl=_0x55eac4=>_0x114d06(0x114)+encodeURIComponent(_0x55eac4);menuBtn[_0x114d06(0x10c)]('click',()=>{const _0x5df703=_0x114d06;menuPopover[_0x5df703(0x117)]['toggle'](_0x5df703(0x136));}),document[_0x114d06(0x10c)](_0x114d06(0x108),_0x32d80f=>{const _0x4d7721=_0x114d06;!menuBtn[_0x4d7721(0x10e)](_0x32d80f[_0x4d7721(0x104)])&&!menuPopover[_0x4d7721(0x10e)](_0x32d80f[_0x4d7721(0x104)])&&menuPopover[_0x4d7721(0x117)]['remove']('show');});function sanitizeText(_0x157290){const _0xdede3f=_0x114d06,_0x3d076b=document[_0xdede3f(0x12a)](_0xdede3f(0x125));return _0x3d076b[_0xdede3f(0x106)]=_0x157290,(_0x3d076b['textContent']||'')[_0xdede3f(0x148)](/\|/g,'')[_0xdede3f(0x13b)]();}function _0x2660(){const _0x105bfd=['bubble-wrapper','contains','126394XCHTwD','preventDefault','\x0a\x20\x20\x20\x20<div\x20class=\x22warning-box\x22>\x0a\x20\x20\x20\x20\x20\x20<h2>⚠️\x20Peringatan!</h2>\x0a\x20\x20\x20\x20\x20\x20<p>DevTools\x20terdeteksi.\x20Tab\x20akan\x20crash.</p>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20','length','\x0a\x20\x20\x20\x20<div\x20class=\x27bubble\x20ai\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x27typing\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span><span></span><span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>','https://api.siputzx.my.id/api/ai/metaai?query=','getElementById','8bCeiNx','classList','scrollHeight','removeChild','height','devtools-warning','blur','chat-form','querySelector','something\x20wrong\x20:(','copied','chat-container','appendChild','7013080JVlZEc','display','div','innerWidth','model-label','load','980392XQIhgG','createElement','menu-popover','outerWidth','copy-btn','user','welcome-screen','touchstart','52296nriEzQ','writeText','textContent','style','message','show','3587845gxRwKy','ctrlKey','button','random','trim','1UfzvvF','touches','selectstart','3092364rFUZRB','cut','outerHeight','bubble','action-row','315ufBLiH','...','body','submit','replace','keydown','model:\x20metaai','scrollTop','key','value','88WlXcMs','then','auto','shiftKey','<br>','log','443304rIPuNd','data','chat-input','target','Enter','innerHTML','12cAwZYc','click','add','.icon-btn[aria-label=\x22Menu\x22]','json','addEventListener'];_0x2660=function(){return _0x105bfd;};return _0x2660();}function hideWelcome(){const _0x25a099=_0x114d06,_0x164849=document[_0x25a099(0x115)](_0x25a099(0x12f));if(_0x164849)_0x164849[_0x25a099(0x134)][_0x25a099(0x124)]='none';}function appendMessage(_0x54d08d,_0xb02a35){const _0x45db40=_0x114d06;hideWelcome();const _0x122ff4=document[_0x45db40(0x12a)](_0x45db40(0x125));_0x122ff4[_0x45db40(0x117)][_0x45db40(0x109)](_0x45db40(0x135),_0x54d08d);const _0x44c7d6=document[_0x45db40(0x12a)](_0x45db40(0x125));_0x44c7d6['classList'][_0x45db40(0x109)](_0x45db40(0x10d));const _0x2ae625=document[_0x45db40(0x12a)](_0x45db40(0x125));_0x2ae625[_0x45db40(0x117)][_0x45db40(0x109)](_0x45db40(0x142),_0x54d08d),_0x44c7d6[_0x45db40(0x122)](_0x2ae625);if(_0x54d08d==='ai'){const _0x7e9ca7=document[_0x45db40(0x12a)](_0x45db40(0x125));_0x7e9ca7['classList'][_0x45db40(0x109)](_0x45db40(0x143));const _0x3ca011=document[_0x45db40(0x12a)](_0x45db40(0x139));_0x3ca011[_0x45db40(0x117)][_0x45db40(0x109)](_0x45db40(0x12d)),_0x3ca011['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20xmlns=\x27http://www.w3.org/2000/svg\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width=\x2716\x27\x20height=\x2716\x27\x20viewBox=\x270\x200\x2024\x2024\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fill=\x27none\x27\x20stroke=\x27currentColor\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-width=\x272\x27\x20stroke-linecap=\x27round\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20stroke-linejoin=\x27round\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<rect\x20x=\x279\x27\x20y=\x279\x27\x20width=\x2713\x27\x20height=\x2713\x27\x20rx=\x272\x27\x20ry=\x272\x27/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x27M5\x2015H4a2\x202\x200\x200\x201-2-2V4\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20a2\x202\x200\x200\x201\x202-2h9a2\x202\x200\x200\x201\x202\x202v1\x27/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20';const _0x428a0f=document[_0x45db40(0x12a)]('span');_0x428a0f[_0x45db40(0x117)][_0x45db40(0x109)](_0x45db40(0x127)),_0x428a0f['textContent']=_0x45db40(0x14a),_0x7e9ca7[_0x45db40(0x122)](_0x3ca011),_0x7e9ca7[_0x45db40(0x122)](_0x428a0f),_0x44c7d6[_0x45db40(0x122)](_0x7e9ca7),_0x3ca011[_0x45db40(0x10c)](_0x45db40(0x108),()=>{const _0x43d38d=_0x45db40,_0x6971f4=_0x2ae625['innerText'];navigator['clipboard'][_0x43d38d(0x132)](_0x6971f4)[_0x43d38d(0x14f)](()=>{const _0x112890=_0x43d38d;_0x3ca011[_0x112890(0x117)][_0x112890(0x109)](_0x112890(0x120)),setTimeout(()=>_0x3ca011['classList']['remove'](_0x112890(0x120)),0x5dc);});});}_0x122ff4[_0x45db40(0x122)](_0x44c7d6),chatContainer[_0x45db40(0x122)](_0x122ff4),chatContainer[_0x45db40(0x14b)]=chatContainer[_0x45db40(0x118)],_0x54d08d==='ai'?typeMessage(_0x2ae625,_0xb02a35):_0x2ae625[_0x45db40(0x133)]=_0xb02a35;}function typeMessage(_0x448f68,_0x2fb34e,_0x2358d2=0x14){let _0x5c37d4=0x0,_0x2c5b9e='';_0x2fb34e=sanitizeText(_0x2fb34e);function _0x19245e(_0x1271c9){const _0x28c202=_0x466d;return _0x1271c9[_0x28c202(0x148)](/\*(.*?)\*/g,'<strong>$1</strong>')[_0x28c202(0x148)](/\n/g,_0x28c202(0x152));}function _0x366d4c(){const _0x3e38eb=_0x466d;_0x5c37d4<_0x2fb34e[_0x3e38eb(0x112)]&&(_0x2c5b9e+=_0x2fb34e[_0x5c37d4],_0x448f68[_0x3e38eb(0x106)]=_0x19245e(_0x2c5b9e),_0x5c37d4++,chatContainer[_0x3e38eb(0x14b)]=chatContainer[_0x3e38eb(0x118)],setTimeout(_0x366d4c,_0x2358d2));}_0x366d4c();}function _0x466d(_0x5f0958,_0x514c4e){const _0x26609b=_0x2660();return _0x466d=function(_0x466d24,_0x5724ac){_0x466d24=_0x466d24-0x102;let _0x4f7a58=_0x26609b[_0x466d24];return _0x4f7a58;},_0x466d(_0x5f0958,_0x514c4e);}chatForm[_0x114d06(0x10c)](_0x114d06(0x147),async _0x38b84a=>{const _0x182adf=_0x114d06;_0x38b84a[_0x182adf(0x110)]();const _0x5a83b1=chatInput['value'][_0x182adf(0x13b)]();if(!_0x5a83b1)return;appendMessage(_0x182adf(0x12e),_0x5a83b1),chatInput[_0x182adf(0x14d)]='',chatInput[_0x182adf(0x134)][_0x182adf(0x11a)]=_0x182adf(0x150),chatInput['blur']();const _0x4b5b03=document[_0x182adf(0x12a)](_0x182adf(0x125));_0x4b5b03['classList'][_0x182adf(0x109)]('message','ai'),_0x4b5b03['innerHTML']=_0x182adf(0x113),chatContainer[_0x182adf(0x122)](_0x4b5b03),chatContainer[_0x182adf(0x14b)]=chatContainer['scrollHeight'];try{const _0x52617e=buildApiUrl(_0x5a83b1),_0x299e0d=await fetch(_0x52617e),_0x46c725=await _0x299e0d[_0x182adf(0x10b)]();chatContainer[_0x182adf(0x119)](_0x4b5b03),appendMessage('ai',_0x46c725[_0x182adf(0x102)]||_0x182adf(0x145));}catch(_0x4afc0b){chatContainer['removeChild'](_0x4b5b03),appendMessage('ai',_0x182adf(0x11f));}}),chatInput[_0x114d06(0x10c)]('input',()=>{const _0x4fe171=_0x114d06;chatInput['style'][_0x4fe171(0x11a)]=_0x4fe171(0x150),chatInput[_0x4fe171(0x134)][_0x4fe171(0x11a)]=chatInput[_0x4fe171(0x118)]+'px';}),chatInput[_0x114d06(0x10c)](_0x114d06(0x149),_0x26a04a=>{const _0x529aaa=_0x114d06;_0x26a04a[_0x529aaa(0x14c)]===_0x529aaa(0x105)&&!_0x26a04a[_0x529aaa(0x151)]&&(_0x26a04a[_0x529aaa(0x110)](),chatForm['requestSubmit']());}),window['addEventListener'](_0x114d06(0x128),()=>{const _0x1b9ad8=_0x114d06;chatInput[_0x1b9ad8(0x11c)]();}),document['addEventListener']('contextmenu',_0x3e80e0=>_0x3e80e0[_0x114d06(0x110)]()),document[_0x114d06(0x10c)](_0x114d06(0x149),_0x432b94=>{const _0x48b04e=_0x114d06;(_0x432b94[_0x48b04e(0x14c)]==='F12'||_0x432b94['ctrlKey']&&_0x432b94[_0x48b04e(0x151)]&&(_0x432b94[_0x48b04e(0x14c)]==='I'||_0x432b94['key']==='J'||_0x432b94[_0x48b04e(0x14c)]==='C')||_0x432b94[_0x48b04e(0x138)]&&_0x432b94['key']==='U')&&_0x432b94[_0x48b04e(0x110)]();});function crashTab(){const _0x44331f=_0x114d06;while(!![]){console[_0x44331f(0x153)](Math[_0x44331f(0x13a)]()*Math[_0x44331f(0x13a)]());}}function showDevtoolsWarning(){const _0x1aa4a1=_0x114d06;if(document['getElementById'](_0x1aa4a1(0x11b)))return;const _0x2cddf1=document['createElement'](_0x1aa4a1(0x125));_0x2cddf1['id']=_0x1aa4a1(0x11b),_0x2cddf1[_0x1aa4a1(0x106)]=_0x1aa4a1(0x111),document[_0x1aa4a1(0x146)]['appendChild'](_0x2cddf1),setTimeout(()=>{const _0x73e92c=_0x1aa4a1;_0x2cddf1[_0x73e92c(0x117)][_0x73e92c(0x109)](_0x73e92c(0x136)),crashTab();},0xc8);}setInterval(()=>{const _0x26bd83=_0x114d06;(window[_0x26bd83(0x12c)]-window[_0x26bd83(0x126)]>0xc8||window[_0x26bd83(0x141)]-window['innerHeight']>0xc8)&&showDevtoolsWarning();},0x3e8),document[_0x114d06(0x10c)]('copy',_0x146eb6=>_0x146eb6[_0x114d06(0x110)]()),document[_0x114d06(0x10c)](_0x114d06(0x140),_0x3dee90=>_0x3dee90['preventDefault']()),document['addEventListener'](_0x114d06(0x13e),_0x753b29=>_0x753b29[_0x114d06(0x110)]()),document[_0x114d06(0x10c)]('contextmenu',_0x48cc23=>_0x48cc23[_0x114d06(0x110)]()),document['addEventListener'](_0x114d06(0x130),_0x1e32a4=>{const _0x5be367=_0x114d06;if(_0x1e32a4[_0x5be367(0x13d)][_0x5be367(0x112)]>0x1)_0x1e32a4[_0x5be367(0x110)]();},{'passive':![]});
+const menuBtn = document.querySelector('.icon-btn[aria-label="Menu"]');
+const menuPopover = document.getElementById('menu-popover');
+const chatContainer = document.getElementById('chat-container');
+const chatForm = document.getElementById('chat-form');
+const chatInput = document.getElementById('chat-input');
+
+const buildApiUrl = (q) =>
+  `https://api.siputzx.my.id/api/ai/metaai?query=${encodeURIComponent(q)}`;
+
+menuBtn.addEventListener('click', () => {
+  menuPopover.classList.toggle('show');
+});
+
+document.addEventListener('click', (e) => {
+  if (!menuBtn.contains(e.target) && !menuPopover.contains(e.target)) {
+    menuPopover.classList.remove('show');
+  }
+});
+
+function sanitizeText(str) {
+  const div = document.createElement('div');
+  div.innerHTML = str;
+  return (div.textContent || '').replace(/\|/g, '').trim();
+}
+
+function hideWelcome() {
+  const welcome = document.getElementById('welcome-screen');
+  if (welcome) welcome.style.display = 'none';
+}
+
+function appendMessage(sender, text) {
+  hideWelcome();
+  const div = document.createElement('div');
+  div.classList.add('message', sender);
+
+  const wrapper = document.createElement('div');
+  wrapper.classList.add('bubble-wrapper');
+
+  const bubble = document.createElement('div');
+  bubble.classList.add('bubble', sender);
+  wrapper.appendChild(bubble);
+
+  if (sender === 'ai') {
+    const actionRow = document.createElement('div');
+    actionRow.classList.add('action-row');
+
+    const copyBtn = document.createElement('button');
+    copyBtn.classList.add('copy-btn');
+    copyBtn.innerHTML = `
+        <svg xmlns='http://www.w3.org/2000/svg'
+            width='16' height='16' viewBox='0 0 24 24'
+            fill='none' stroke='currentColor'
+            stroke-width='2' stroke-linecap='round'
+            stroke-linejoin='round'>
+        <rect x='9' y='9' width='13' height='13' rx='2' ry='2'/>
+        <path d='M5 15H4a2 2 0 0 1-2-2V4
+                a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'/>
+        </svg>
+    `;
+
+    const modelLabel = document.createElement('span');
+    modelLabel.classList.add('model-label');
+    modelLabel.textContent = `model: metaai`;
+
+    actionRow.appendChild(copyBtn);
+    actionRow.appendChild(modelLabel);
+    wrapper.appendChild(actionRow);
+
+    copyBtn.addEventListener('click', () => {
+      const plainText = bubble.innerText;
+      navigator.clipboard.writeText(plainText).then(() => {
+          copyBtn.classList.add('copied');
+          setTimeout(() => copyBtn.classList.remove('copied'), 1500);
+      });
+    });
+  }
+
+  div.appendChild(wrapper);
+  chatContainer.appendChild(div);
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+
+  if (sender === 'ai') {
+    typeMessage(bubble, text);
+  } else {
+    bubble.textContent = text;
+  }
+}
+
+function typeMessage(element, text, speed = 20) {
+  let i = 0, temp = '';
+  text = sanitizeText(text);
+
+  function renderCustomMarkdown(str) {
+    return str.replace(/\*(.*?)\*/g, '<strong>$1</strong>')
+              .replace(/\n/g, '<br>');
+  }
+
+  function typing() {
+    if (i < text.length) {
+      temp += text[i];
+      element.innerHTML = renderCustomMarkdown(temp);
+      i++;
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+      setTimeout(typing, speed);
+    }
+  }
+  typing();
+}
+
+chatForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const query = chatInput.value.trim();
+  if (!query) return;
+
+  appendMessage('user', query);
+  chatInput.value = '';
+  chatInput.style.height = 'auto'; 
+  chatInput.blur(); 
+
+  const loadingMsg = document.createElement('div');
+  loadingMsg.classList.add('message', 'ai');
+  loadingMsg.innerHTML = `
+    <div class='bubble ai'>
+        <div class='typing'>
+          <span></span><span></span><span></span>
+        </div>
+    </div>`;
+  chatContainer.appendChild(loadingMsg);
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+
+  try {
+    const url = buildApiUrl(query);
+    const res = await fetch(url);
+    const data = await res.json();
+
+    chatContainer.removeChild(loadingMsg);
+    appendMessage('ai', data.data || '...');
+  } catch (err) {
+    chatContainer.removeChild(loadingMsg);
+    appendMessage('ai', 'something wrong :(');
+  }
+});
+
+chatInput.addEventListener('input', () => {
+  chatInput.style.height = 'auto';
+  chatInput.style.height = chatInput.scrollHeight + 'px';
+});
+
+chatInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    chatForm.requestSubmit();
+  }
+});
+
+window.addEventListener('load', () => {
+  chatInput.blur();
+});
+
+document.addEventListener('contextmenu', e => e.preventDefault());
+
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' ||
+    (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) ||
+    (e.ctrlKey && e.key === 'U')
+  ) {
+    e.preventDefault();
+  }
+});
+
+function crashTab() {
+  while (true) {
+    console.log(Math.random() * Math.random());
+  }
+}
+
+function showDevtoolsWarning() {
+  if (document.getElementById('devtools-warning')) return;
+
+  const overlay = document.createElement('div');
+  overlay.id = 'devtools-warning';
+  overlay.innerHTML = `
+    <div class="warning-box">
+      <h2>⚠️ Peringatan!</h2>
+      <p>DevTools terdeteksi. Tab akan crash.</p>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  setTimeout(() => {
+    overlay.classList.add('show');
+    crashTab();
+  }, 200);
+}
+
+setInterval(() => {
+  if (
+    window.outerWidth - window.innerWidth > 200 ||
+    window.outerHeight - window.innerHeight > 200
+  ) {
+    showDevtoolsWarning();
+  }
+}, 1000);
+
+document.addEventListener('copy', e => e.preventDefault());
+document.addEventListener('cut', e => e.preventDefault());
+document.addEventListener('selectstart', e => e.preventDefault());
+
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('touchstart', e => {
+  if (e.touches.length > 1) e.preventDefault();
+}, { passive: false });
