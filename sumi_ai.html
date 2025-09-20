@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sumi AI - Chat</title>
+  <link rel="stylesheet" href="./assets/css/sumi_ai.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">Sumi AI (llama)</header>
+
+  <!-- Chat Container -->
+  <main id="chat-container" class="chat-container">
+    <div id="welcome-screen" class="welcome">
+        <h2>Apa yang bisa saya bantu?</h2>
+        <p>Ditenagai oleh Meta AI (Llama)</p>
+    </div>
+  </main>
+
+  <!-- Floating Input -->
+  <form id="chat-form" class="chat-form" novalidate>
+    <div class="chat-form-inner">
+
+      <!-- Wrapper tombol & popover -->
+      <div class="menu-wrapper">
+        <!-- Tombol kiri (ikon =) -->
+        <button type="button" class="icon-btn" aria-label="Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24" stroke="currentColor" width="22" height="22">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+
+        <!-- Menu Popover (cuma 1 pilihan: Meta AI) -->
+        <div id="menu-popover" class="menu-popover hidden">
+          <ul>
+            <li><button class="menu-item" data-model="metaai">Meta AI</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Input teks -->
+     <input id="chat-input" 
+       type="text" 
+       placeholder="Tanyakan apa saja"
+       required 
+       inputmode="text" 
+       autocomplete="off"
+       autocorrect="off" 
+       spellcheck="false"/>
+
+      <!-- Tombol kirim -->
+      <button type="submit" class="icon-btn" aria-label="Kirim">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="2" d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  </form>
+
+  <script>
+    const menuBtn = document.querySelector('.icon-btn[aria-label=\'Menu\']');
+const menuPopover = document.getElementById('menu-popover');
+const header = document.querySelector('.header');
+let currentModel = 'metaai';
+
+menuBtn.addEventListener('click', () => {
+  menuPopover.classList.toggle('show');
+});
+
+document.querySelectorAll('.menu-item').forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentModel = btn.dataset.model;
+    menuPopover.classList.remove('show');
+  });
+});
+
+document.addEventListener('click', (e) => {
+  if (!menuBtn.contains(e.target) && !menuPopover.contains(e.target)) {
+    menuPopover.classList.remove('show');
+  }
+});
+
+const chatContainer = document.getElementById('chat-container');
+const chatForm = document.getElementById('chat-form');
+const chatInput = document.getElementById('chat-input');
+
+const apiEndpoints = {
+  metaai: (q) =>
+    `https://api.siputzx.my.id/api/ai/metaai?query=${encodeURIComponent(q)}`
+};
+
+function sanitizeText(str) {
+  const div = document.createElement('div');
+  div.innerHTML = str;
+  let clean = div.textContent || '';
+  clean = clean.replace(/\|/g, '').trim();
+  return clean;
+}
+
+function hideWelcome() {
+  const welcome = document.getElementById('welcome-screen');
+  if (welcome) welcome.style.display = 'none';
+}
+
+    function appendMessage(sender, text, model = currentModel) {
+        hideWelcome(); 
+
+    const div = document.createElement('div');
+    div.classList.add('message', sender);
+
+    const wrapper = document.createElement('div');
+    wrapper.classList.add('bubble-wrapper');
+
+    const bubble = document.createElement('div');
+    bubble.classList.add('bubble', sender);
+    wrapper.appendChild(bubble);
+
+      if (sender === 'ai') {
+        const actionRow = document.createElement('div');
+        actionRow.classList.add('action-row');
+
+        const copyBtn = document.createElement('button');
+        copyBtn.classList.add('copy-btn');
+        copyBtn.innerHTML = `
+            <svg xmlns='http://www.w3.org/2000/svg'
+                width='16' height='16' viewBox='0 0 24 24'
+                fill='none' stroke='currentColor'
+                stroke-width='2' stroke-linecap='round'
+                stroke-linejoin='round'>
+            <rect x='9' y='9' width='13' height='13' rx='2' ry='2'/>
+            <path d='M5 15H4a2 2 0 0 1-2-2V4
+                    a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'/>
+            </svg>
+        `;
+
+        const modelLabel = document.createElement('span');
+        modelLabel.classList.add('model-label');
+        modelLabel.textContent = `model: ${model}`;
+
+        actionRow.appendChild(copyBtn);
+        actionRow.appendChild(modelLabel);
+        wrapper.appendChild(actionRow);
+
+        copyBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(text).then(() => {
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 1500);
+            });
+        });
+      }
+
+      div.appendChild(wrapper);
+      chatContainer.appendChild(div);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+
+      if (sender === 'ai') {
+        typeMessage(bubble, text);
+      } else {
+        bubble.textContent = text;
+      }
+    }
+
+    function typeMessage(element, text, speed = 20) {
+    let i = 0, temp = '';
+    text = sanitizeText(text);
+
+    function renderCustomMarkdown(str) {
+        str = str.replace(/\*(.*?)\*/g, '<strong>$1</strong>');
+        str = str.replace(/\n/g, '<br>');
+        return str;
+    }
+
+    function typing() {
+        if (i < text.length) {
+        temp += text[i];
+        element.innerHTML = renderCustomMarkdown(temp);
+        i++;
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+        setTimeout(typing, speed);
+        }
+    }
+    typing();
+    }
+
+    chatForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const query = chatInput.value.trim();
+        if (!query) return;
+
+        appendMessage('user', query);
+        chatInput.value = '';
+        chatInput.blur(); // 🔥 langsung close keyboard di HP
+
+
+      const loadingMsg = document.createElement('div');
+        loadingMsg.classList.add('message', 'ai');
+        loadingMsg.innerHTML = `
+        <div class='bubble ai'>
+            <div class='typing'>
+            <span></span><span></span><span></span>
+            </div>
+        </div>`;
+        chatContainer.appendChild(loadingMsg);
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+
+      try {
+        const urlBuilder = apiEndpoints[currentModel];
+        const url = urlBuilder(query);
+
+        const res = await fetch(url);
+        const data = await res.json();
+
+        chatContainer.removeChild(loadingMsg);
+        appendMessage('ai', data.data || 'Tidak ada respon dari AI.');
+      } catch (err) {
+        chatContainer.removeChild(loadingMsg);
+        appendMessage('ai', 'Error koneksi ke API.');
+      }
+    });
+
+    window.addEventListener('load', () => {
+      document.getElementById('chat-input').blur();
+    });
+  </script>
+</body>
+</html>
