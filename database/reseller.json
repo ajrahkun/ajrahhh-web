@@ -1,6 +1,6 @@
 [
+  { "name": "Aris", "income": 0 },
   { "name": "Dilz", "income": 0 },
-  { "name": "Eghi", "income": 0 },
   { "name": "Eko", "income": 5000 },
   { "name": "Guzz", "income": 0 },
   { "name": "Hamz", "income": 0 },
@@ -12,5 +12,11 @@
   { "name": "Ruro", "income": 5000 },
   { "name": "Sarif", "income": 0 },
   { "name": "Seika", "income": 0 },
-  { "name": "Vidd", "income": 0 }
+  { "name": "Vidd", "income": 0 },
+  { "name": "Rama", "income": 0 },
+  { "name": "Patir", "income": 0 },
+  { "name": "Fann", "income": 0 },
+  { "name": "Yuru", "income": 0 },
+  { "name": "Binn", "income": 0 },
+  { "name": "Kayze", "income": 15000 },
 ]
