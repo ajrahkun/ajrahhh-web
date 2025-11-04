@@ -1,5 +1,5 @@
 [
-  { "name": "Aris", "income": 0 },
+  { "name": "Aris", "income": 10000 },
   { "name": "Dilz", "income": 0 },
   { "name": "Eko", "income": 5000 },
   { "name": "Guzz", "income": 0 },
@@ -16,7 +16,8 @@
   { "name": "Rama", "income": 0 },
   { "name": "Patir", "income": 0 },
   { "name": "Fann", "income": 0 },
-  { "name": "Yuru", "income": 0 },
+  { "name": "Yuru", "income": 10000 },
   { "name": "Binn", "income": 0 },
   { "name": "Kayze", "income": 15000 },
 ]
+
