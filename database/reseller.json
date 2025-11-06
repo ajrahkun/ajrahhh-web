@@ -32,7 +32,8 @@
   },
   {
     "name": "Offmon",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@riyz.only"
   },
   {
     "name": "Randy",
@@ -40,11 +41,13 @@
   },
   {
     "name": "Ruro",
-    "income": 5000
+    "income": 5000,
+    "acc": "https://www.tiktok.com/@rurowangyy"
   },
   {
     "name": "Sarif",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@sarifkgn"
   },
   {
     "name": "Seika",
@@ -68,11 +71,13 @@
   },
   {
     "name": "Yuru",
-    "income": 35000
+    "income": 35000,
+    "acc": "https://www.tiktok.com/@yurprst"
   },
   {
     "name": "Binn",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@binn_prst"
   },
   {
     "name": "Kayze",
@@ -80,31 +85,38 @@
   },
   {
     "name": "Jiro",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@hamz.history"
   },
   {
     "name": "Kouro",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@kouro_preset"
   },
   {
     "name": "Yun",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@yunwangyy"
   },
   {
     "name": "Shiki",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@zaawangyy12"
   },
   {
     "name": "Ridzz",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@ridzwangyy"
   },
   {
     "name": "Tar",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@tarwangyys7"
   },
   {
     "name": "Ilzz",
-    "income": 0
+    "income": 0,
+    "acc": "https://www.tiktok.com/@ilzz_asik_sekali_"
   },
   {
     "name": "Hiragi",
