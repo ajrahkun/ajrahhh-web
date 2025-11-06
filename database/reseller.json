@@ -18,7 +18,7 @@
   { "name": "Fann", "income": 0 },
   { "name": "Yuru", "income": 25000 },
   { "name": "Binn", "income": 0 },
-  { "name": "Kayze", "income": 15000 },
+  { "name": "Kayze", "income": 0 },
   { "name": "Jiro", "income": 0 },
   { "name": "Kouro", "income": 0 },
   { "name": "Yun", "income": 0 },
@@ -28,3 +28,4 @@
   { "name": "Ilzz", "income": 0 },
   { "name": "Hiragi", "income": 0 }
 ]
+
