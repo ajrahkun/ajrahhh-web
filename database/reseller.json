@@ -1,6 +1,5 @@
 [
   { "name": "Aris", "income": 10000 },
-  { "name": "Dilz", "income": 0 },
   { "name": "Eko", "income": 5000 },
   { "name": "Guzz", "income": 0 },
   { "name": "Hamz", "income": 0 },
@@ -30,6 +29,7 @@
   { "name": "Ano", "income": 0 },
   { "name": "Naz", "income": 0 }
 ]
+
 
 
 
