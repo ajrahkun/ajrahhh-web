@@ -1,41 +1,130 @@
 [
-  { "name": "Aris", "income": 10000 },
-  { "name": "Eko", "income": 5000 },
-  { "name": "Guzz", "income": 0 },
-  { "name": "Hamz", "income": 0 },
-  { "name": "Kinzy", "income": 0 },
-  { "name": "Kurulena", "income": 0 },
-  { "name": "Miruki", "income": 0 },
-  { "name": "Offmon", "income": 0 },
-  { "name": "Randy", "income": 0 },
-  { "name": "Ruro", "income": 5000 },
-  { "name": "Sarif", "income": 0 },
-  { "name": "Seika", "income": 5000 },
-  { "name": "Vidd", "income": 0 },
-  { "name": "Rama", "income": 0 },
-  { "name": "Patir", "income": 0 },
-  { "name": "Fann", "income": 0 },
-  { "name": "Yuru", "income": 35000 },
-  { "name": "Binn", "income": 0 },
-  { "name": "Kayze", "income": 0 },
-  { "name": "Jiro", "income": 0 },
-  { "name": "Kouro", "income": 0 },
-  { "name": "Yun", "income": 0 },
-  { "name": "Shiki", "income": 0 },
-  { "name": "Ridzz", "income": 0 },
-  { "name": "Tar", "income": 0 },
-  { "name": "Ilzz", "income": 0 },
-  { "name": "Hiragi", "income": 0 },
-  { "name": "Ano", "income": 0 },
-  { "name": "Naz", "income": 0 },
-  { "name": "Zayn", "income": 0 },
-  { "name": "Burhan", "income": 0 }
+  {
+    "name": "Aris",
+    "income": 10000
+  },
+  {
+    "name": "Eko",
+    "income": 5000
+  },
+  {
+    "name": "Guzz",
+    "income": 0
+  },
+  {
+    "name": "Hamz",
+    "income": 0
+  },
+  {
+    "name": "Kinzy",
+    "income": 0
+  },
+  {
+    "name": "Kurulena",
+    "income": 0
+  },
+  {
+    "name": "Miruki",
+    "income": 0
+  },
+  {
+    "name": "Offmon",
+    "income": 0
+  },
+  {
+    "name": "Randy",
+    "income": 0
+  },
+  {
+    "name": "Ruro",
+    "income": 5000
+  },
+  {
+    "name": "Sarif",
+    "income": 0
+  },
+  {
+    "name": "Seika",
+    "income": 5000
+  },
+  {
+    "name": "Vidd",
+    "income": 0
+  },
+  {
+    "name": "Rama",
+    "income": 0
+  },
+  {
+    "name": "Patir",
+    "income": 0
+  },
+  {
+    "name": "Fann",
+    "income": 0
+  },
+  {
+    "name": "Yuru",
+    "income": 35000
+  },
+  {
+    "name": "Binn",
+    "income": 0
+  },
+  {
+    "name": "Kayze",
+    "income": 0
+  },
+  {
+    "name": "Jiro",
+    "income": 0
+  },
+  {
+    "name": "Kouro",
+    "income": 0
+  },
+  {
+    "name": "Yun",
+    "income": 0
+  },
+  {
+    "name": "Shiki",
+    "income": 0
+  },
+  {
+    "name": "Ridzz",
+    "income": 0
+  },
+  {
+    "name": "Tar",
+    "income": 0
+  },
+  {
+    "name": "Ilzz",
+    "income": 0
+  },
+  {
+    "name": "Hiragi",
+    "income": 0
+  },
+  {
+    "name": "Ano",
+    "income": 0
+  },
+  {
+    "name": "Naz",
+    "income": 0
+  },
+  {
+    "name": "Zayn",
+    "income": 0
+  },
+  {
+    "name": "Burhan",
+    "income": 0
+  },
+  {
+    "name": "Sora",
+    "income": 0
+  }
 ]
-
-
-
-
-
-
-
-
