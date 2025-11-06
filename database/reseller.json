@@ -16,7 +16,7 @@
   { "name": "Rama", "income": 0 },
   { "name": "Patir", "income": 0 },
   { "name": "Fann", "income": 0 },
-  { "name": "Yuru", "income": 10000 },
+  { "name": "Yuru", "income": 25000 },
   { "name": "Binn", "income": 0 },
   { "name": "Kayze", "income": 15000 },
   { "name": "Jiro", "income": 0 },
@@ -27,6 +27,7 @@
   { "name": "Tar", "income": 0 },
   { "name": "Ilzz", "income": 0 }
 ]
+
 
 
 
