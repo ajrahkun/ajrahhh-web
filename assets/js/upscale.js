@@ -1,1 +1,137 @@
-const _0x233888=_0x26b7;function _0x26b7(_0x58b9d2,_0xe8818b){const _0x2c0d93=_0x2c0d();return _0x26b7=function(_0x26b725,_0x575599){_0x26b725=_0x26b725-0x1af;let _0x370db5=_0x2c0d93[_0x26b725];return _0x370db5;},_0x26b7(_0x58b9d2,_0xe8818b);}(function(_0x2b4c74,_0x8e2fe){const _0x3d5fb5=_0x26b7,_0x27d15a=_0x2b4c74();while(!![]){try{const _0x5063c7=-parseInt(_0x3d5fb5(0x21a))/0x1+parseInt(_0x3d5fb5(0x21d))/0x2+parseInt(_0x3d5fb5(0x215))/0x3+-parseInt(_0x3d5fb5(0x1cb))/0x4*(-parseInt(_0x3d5fb5(0x1bd))/0x5)+-parseInt(_0x3d5fb5(0x1f7))/0x6+parseInt(_0x3d5fb5(0x1de))/0x7+-parseInt(_0x3d5fb5(0x1be))/0x8;if(_0x5063c7===_0x8e2fe)break;else _0x27d15a['push'](_0x27d15a['shift']());}catch(_0xc26d15){_0x27d15a['push'](_0x27d15a['shift']());}}}(_0x2c0d,0xc7bb2));function _0x2c0d(){const _0x52e85f=['.fade-bottom','overflow','downloadBtn','contains','Upscaling','innerHTML','71310MNfNLd','800136uQQMUu','beforeImg','getItem','remove','src','size','recentList','blob','recentUpscale','dragleave','compareContainer','length','.menu-item','180XLjorE','setItem','toFixed','afterImg','toLocaleDateString','protected-img','scroll','classList','unshift','Upscale','\x20‣\x20','.model-btn','innerText','\x20KB','before','auto','json','show','rgba(17,17,17,0.6)','387352voCEYF','body','drop','appendChild','numeric','contextmenu','readAsDataURL','long','dropZone','files','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20justify-content:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x27recent-empty\x27>-</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','toString','result','style','join','target','dataTransfer','uploadInput','loading','forEach','querySelector','background','https://sumi-ai-backend.vercel.app/api/upscale_v4','clientHeight','https://sumi-ai-backend.vercel.app/api/upscale_v2','3128694sHTcdw','preventDefault','thumb','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x27recent-item\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x27','cf-overlay','parse','.fade-top','after','change','disabled','getElementById','random','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','data-model','hidden','map','block','add','\x20MB','substring','download','createElement','previewImg','stringify','previewContainer','none','scrollHeight','opacity','0.00\x20KB','addEventListener','1895763jYwoyH','application/json','upscaleBtn','display','https://sumi-ai-backend.vercel.app/api/upscale_v3','1475466CQSGOF','onload','click','3171966BrPQtj','onclick','href','.png','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>','modelMenu','https://sumi-ai-backend.vercel.app/api/upscale_v1','rgba(40,40,40,0.7)','dragover'];_0x2c0d=function(){return _0x52e85f;};return _0x2c0d();}const fileInput=document[_0x233888(0x201)](_0x233888(0x1ef)),previewContainer=document['getElementById'](_0x233888(0x20f)),previewImg=document[_0x233888(0x201)](_0x233888(0x20d)),compareContainer=document[_0x233888(0x201)](_0x233888(0x1c8));let lastUpscaleResult='',selectedFile=null,selectedFileBase64='',selectedModel='v1';function formatSize(_0x448b29){const _0x55d43c=_0x233888,_0x33415d=_0x448b29/0x400;return _0x33415d<0x400?_0x33415d[_0x55d43c(0x1cd)](0x2)+_0x55d43c(0x1d8):(_0x33415d/0x400)['toFixed'](0x2)+_0x55d43c(0x209);}function formatDate(){const _0x3260c2=_0x233888;return new Date()[_0x3260c2(0x1cf)]('id-ID',{'day':'numeric','month':_0x3260c2(0x1e5),'year':_0x3260c2(0x1e2)});}function updateFade(){const _0x57ff04=_0x233888,_0x2c23df=document[_0x57ff04(0x201)](_0x57ff04(0x1c4)),_0x144727=document['querySelector'](_0x57ff04(0x1fd)),_0x836e7a=document[_0x57ff04(0x1f2)](_0x57ff04(0x1b7)),_0x3f7f18=_0x2c23df[_0x57ff04(0x211)]-_0x2c23df[_0x57ff04(0x1f5)],_0x1950af=_0x2c23df['scrollTop'],_0x4ef38d=_0x3f7f18-_0x1950af;_0x144727[_0x57ff04(0x1eb)][_0x57ff04(0x212)]=_0x3f7f18>0x5&&_0x1950af>0x5?'1':'0',_0x836e7a['style'][_0x57ff04(0x212)]=_0x3f7f18>0x5&&_0x4ef38d>0x5?'1':'0';}function loadRecent(){const _0x1cc6a0=_0x233888,_0xd81148=document[_0x1cc6a0(0x201)]('recentList'),_0x11009b=JSON['parse'](localStorage[_0x1cc6a0(0x1c0)](_0x1cc6a0(0x1c6))||'[]');if(_0x11009b['length']===0x0){_0xd81148[_0x1cc6a0(0x1bc)]=_0x1cc6a0(0x1e8),updateFade();return;}_0xd81148['innerHTML']=_0x11009b[_0x1cc6a0(0x206)](_0x336ad1=>{const _0x405366=_0x1cc6a0,_0xe75832=_0x336ad1[_0x405366(0x1fe)]===_0x405366(0x213)?'':_0x405366(0x1d5)+_0x336ad1[_0x405366(0x1fe)];return _0x405366(0x1fa)+_0x336ad1[_0x405366(0x1f9)]+'\x27\x20class=\x27recent-thumb\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x27recent-info\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>'+_0x336ad1['date']+_0x405366(0x1b2)+_0x336ad1[_0x405366(0x1d9)]+_0xe75832+_0x405366(0x203);})[_0x1cc6a0(0x1ec)](''),updateFade();}function addRecent(_0x1022c6,_0x160020,_0x9a1c5){const _0x44964f=_0x233888,_0x52c7c7=JSON[_0x44964f(0x1fc)](localStorage[_0x44964f(0x1c0)](_0x44964f(0x1c6))||'[]');_0x52c7c7[_0x44964f(0x1d3)]({'thumb':_0x1022c6,'date':formatDate(),'before':_0x160020,'after':_0x9a1c5});if(_0x52c7c7[_0x44964f(0x1c9)]>0x14)_0x52c7c7['pop']();localStorage[_0x44964f(0x1cc)]('recentUpscale',JSON[_0x44964f(0x20e)](_0x52c7c7)),loadRecent();}loadRecent(),fileInput[_0x233888(0x214)](_0x233888(0x1ff),_0x1a1090=>{const _0x362c9d=_0x233888,_0x8645ef=_0x1a1090[_0x362c9d(0x1ed)][_0x362c9d(0x1e7)][0x0];if(!_0x8645ef)return;selectedFile=_0x8645ef;const _0xd64cd0=new FileReader();_0xd64cd0[_0x362c9d(0x21b)]=_0x32a03b=>{const _0x2bb3=_0x362c9d;selectedFileBase64=_0x32a03b['target'][_0x2bb3(0x1ea)],previewImg[_0x2bb3(0x1c2)]=selectedFileBase64,previewContainer[_0x2bb3(0x1eb)][_0x2bb3(0x218)]='block',compareContainer['style']['display']='none';},_0xd64cd0[_0x362c9d(0x1e4)](_0x8645ef);});const upscaleBtn=document[_0x233888(0x201)](_0x233888(0x217));upscaleBtn[_0x233888(0x214)](_0x233888(0x21c),async()=>{const _0x6f38b1=_0x233888;if(!selectedFile)return;upscaleBtn[_0x6f38b1(0x1d7)]=_0x6f38b1(0x1bb),upscaleBtn[_0x6f38b1(0x1d2)][_0x6f38b1(0x208)](_0x6f38b1(0x1f0)),upscaleBtn['disabled']=!![];const _0x2a9e5e=await fileToBase64(selectedFile),_0x87bc66={'v1':_0x6f38b1(0x1b4),'v2':_0x6f38b1(0x1f6),'v3':_0x6f38b1(0x219),'v4':_0x6f38b1(0x1f4)},_0x3c42b6=_0x87bc66[selectedModel],_0x12b774=await fetch(_0x3c42b6,{'method':'POST','headers':{'Content-Type':_0x6f38b1(0x216)},'body':JSON['stringify']({'image':_0x2a9e5e})}),_0x4a8c18=await _0x12b774[_0x6f38b1(0x1db)]();if(!_0x4a8c18[_0x6f38b1(0x1ea)]){upscaleBtn[_0x6f38b1(0x1d7)]=_0x6f38b1(0x1d4),upscaleBtn[_0x6f38b1(0x1d2)][_0x6f38b1(0x1c1)](_0x6f38b1(0x1f0)),upscaleBtn[_0x6f38b1(0x200)]=![];return;}lastUpscaleResult=_0x4a8c18['result'],previewContainer[_0x6f38b1(0x1eb)]['display']=_0x6f38b1(0x210),compareContainer['style'][_0x6f38b1(0x218)]='block',document[_0x6f38b1(0x201)](_0x6f38b1(0x1bf))[_0x6f38b1(0x1c2)]=selectedFileBase64,document[_0x6f38b1(0x201)](_0x6f38b1(0x1ce))[_0x6f38b1(0x1c2)]=lastUpscaleResult,document[_0x6f38b1(0x201)](_0x6f38b1(0x1b9))[_0x6f38b1(0x1af)]=async()=>{const _0x346b04=_0x6f38b1,_0x39a6e9=await fetch(lastUpscaleResult,{'mode':'cors'}),_0x213dca=await _0x39a6e9[_0x346b04(0x1c5)](),_0x2617e6=URL['createObjectURL'](_0x213dca),_0x857e40=document[_0x346b04(0x20c)]('a');_0x857e40[_0x346b04(0x1b0)]=_0x2617e6,_0x857e40[_0x346b04(0x20b)]='upscale_'+Math[_0x346b04(0x202)]()[_0x346b04(0x1e9)](0x24)[_0x346b04(0x20a)](0x2,0xa)+_0x346b04(0x1b1),document[_0x346b04(0x1df)][_0x346b04(0x1e1)](_0x857e40),_0x857e40[_0x346b04(0x21c)](),_0x857e40['remove'](),URL['revokeObjectURL'](_0x2617e6);},addRecent(selectedFileBase64,formatSize(selectedFile[_0x6f38b1(0x1c3)]),'0.00\x20KB'),upscaleBtn[_0x6f38b1(0x1d7)]=_0x6f38b1(0x1d4),upscaleBtn[_0x6f38b1(0x1d2)][_0x6f38b1(0x1c1)](_0x6f38b1(0x1f0)),upscaleBtn[_0x6f38b1(0x200)]=![];});function fileToBase64(_0x476db4){return new Promise(_0xd3eef8=>{const _0x457b4b=_0x26b7,_0x59c4f6=new FileReader();_0x59c4f6[_0x457b4b(0x21b)]=()=>_0xd3eef8(_0x59c4f6[_0x457b4b(0x1ea)]),_0x59c4f6[_0x457b4b(0x1e4)](_0x476db4);});}const modelBtn=document[_0x233888(0x1f2)](_0x233888(0x1d6)),modelMenu=document[_0x233888(0x201)](_0x233888(0x1b3));modelBtn[_0x233888(0x214)](_0x233888(0x21c),()=>{const _0x651dc2=_0x233888;modelMenu[_0x651dc2(0x1d2)][_0x651dc2(0x208)]('show');}),modelMenu[_0x233888(0x214)](_0x233888(0x21c),_0x228253=>{const _0x131f5d=_0x233888;_0x228253[_0x131f5d(0x1ed)]===modelMenu&&modelMenu[_0x131f5d(0x1d2)][_0x131f5d(0x1c1)](_0x131f5d(0x1dc));});const menuItems=document['querySelectorAll'](_0x233888(0x1ca));menuItems[_0x233888(0x1f1)](_0x45c441=>{const _0x3a5dcf=_0x233888;_0x45c441[_0x3a5dcf(0x214)](_0x3a5dcf(0x21c),()=>{const _0x55bc95=_0x3a5dcf,_0x3c82ac=_0x45c441['getAttribute'](_0x55bc95(0x204));if(_0x3c82ac)selectedModel=_0x3c82ac;modelMenu[_0x55bc95(0x1d2)][_0x55bc95(0x1c1)]('show');});}),document['getElementById'](_0x233888(0x1c4))[_0x233888(0x214)](_0x233888(0x1d1),updateFade),document['addEventListener'](_0x233888(0x1e3),_0x56c2f8=>{const _0xa47b23=_0x233888;_0x56c2f8['target'][_0xa47b23(0x1d2)][_0xa47b23(0x1ba)](_0xa47b23(0x1d0))&&_0x56c2f8[_0xa47b23(0x1f8)]();});const dropZone=document['getElementById'](_0x233888(0x1e6));['dragenter',_0x233888(0x1b6)][_0x233888(0x1f1)](_0x39cf9f=>{const _0x127b34=_0x233888;dropZone[_0x127b34(0x214)](_0x39cf9f,_0xfb3ee3=>{const _0x4fc356=_0x127b34;_0xfb3ee3[_0x4fc356(0x1f8)](),dropZone[_0x4fc356(0x1eb)]['background']=_0x4fc356(0x1b5);});}),[_0x233888(0x1c7),_0x233888(0x1e0)][_0x233888(0x1f1)](_0xd30852=>{dropZone['addEventListener'](_0xd30852,_0x479215=>{const _0x11cd59=_0x26b7;_0x479215[_0x11cd59(0x1f8)](),dropZone[_0x11cd59(0x1eb)][_0x11cd59(0x1f3)]=_0x11cd59(0x1dd);});}),dropZone[_0x233888(0x214)](_0x233888(0x1e0),_0x5cc502=>{const _0xaa6236=_0x233888;_0x5cc502['preventDefault']();const _0x3173a9=_0x5cc502[_0xaa6236(0x1ee)][_0xaa6236(0x1e7)][0x0];if(!_0x3173a9)return;selectedFile=_0x3173a9;const _0x4d7ae3=new FileReader();_0x4d7ae3[_0xaa6236(0x21b)]=_0xd1b99b=>{const _0x3e7dc4=_0xaa6236;selectedFileBase64=_0xd1b99b[_0x3e7dc4(0x1ed)][_0x3e7dc4(0x1ea)],previewImg['src']=selectedFileBase64,previewContainer['style']['display']=_0x3e7dc4(0x207),compareContainer[_0x3e7dc4(0x1eb)][_0x3e7dc4(0x218)]='none';},_0x4d7ae3[_0xaa6236(0x1e4)](_0x3173a9);}),window[_0x233888(0x21b)]=()=>{const _0xb7be0a=_0x233888,_0x2f322d=document[_0xb7be0a(0x201)]('loading-loader'),_0x573a63=document[_0xb7be0a(0x201)](_0xb7be0a(0x1fb));setTimeout(()=>{const _0x2bf8d4=_0xb7be0a;_0x2f322d[_0x2bf8d4(0x1eb)][_0x2bf8d4(0x212)]='0',setTimeout(()=>{const _0x5a2a34=_0x2bf8d4;_0x2f322d[_0x5a2a34(0x1c1)](),_0x573a63[_0x5a2a34(0x1d2)][_0x5a2a34(0x1c1)](_0x5a2a34(0x205)),document[_0x5a2a34(0x1df)][_0x5a2a34(0x1eb)][_0x5a2a34(0x1b8)]=_0x5a2a34(0x205);},0x258);},0x4b0);};function onVerified(){const _0x5a0081=_0x233888,_0x1b96a0=document[_0x5a0081(0x201)](_0x5a0081(0x1fb));_0x1b96a0[_0x5a0081(0x1d2)]['add'](_0x5a0081(0x205)),setTimeout(()=>{const _0x3d5c10=_0x5a0081;_0x1b96a0[_0x3d5c10(0x1c1)](),document[_0x3d5c10(0x1df)][_0x3d5c10(0x1eb)][_0x3d5c10(0x1b8)]=_0x3d5c10(0x1da);},0x258);}
+const input = document.getElementById('imageInput')
+const preview = document.getElementById('previewImage')
+const content = document.getElementById('uploadContent')
+const upscaleBtn = document.getElementById('upscaleBtn')
+
+const uploadBox = document.getElementById('uploadBox')
+const compareWrap = document.getElementById('compareWrap')
+const beforeImg = document.getElementById('beforeImg')
+const afterImg = document.getElementById('afterImg')
+
+const MAX_FILE_SIZE = 7 * 1024 * 1024
+
+let selectedFile = null
+let selectedFileBase64 = null
+
+function fileToBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => resolve(reader.result)
+    reader.onerror = reject
+    reader.readAsDataURL(file)
+  })
+}
+
+input.addEventListener('change', async () => {
+  const file = input.files[0]
+  if (!file || !file.type.startsWith('image/')) return
+
+  if (file.size > MAX_FILE_SIZE) {
+    alert('Image size exceeds 7 MB limit.')
+    input.value = ''
+    return
+  }
+
+  selectedFile = file
+  selectedFileBase64 = await fileToBase64(file)
+
+  document.getElementById('beforeSize').textContent = formatSize(file.size)
+
+  compareWrap.hidden = true
+  uploadBox.style.display = 'flex'
+
+  preview.src = selectedFileBase64
+  preview.hidden = false
+  content.style.display = 'none'
+
+  upscaleBtn.hidden = false
+  upscaleBtn.style.display = 'block'
+  upscaleBtn.disabled = false
+  upscaleBtn.textContent = 'Upscale'
+})
+
+upscaleBtn.addEventListener('click', async () => {
+  if (!selectedFile || !selectedFileBase64) return
+
+  const dots = ['.', '..', '...', '..']
+  let i = 0
+
+  upscaleBtn.disabled = true
+  uploadBox.style.pointerEvents = 'none'
+
+  const dotInterval = setInterval(() => {
+    upscaleBtn.textContent = 'Upscaling ' + dots[i % dots.length]
+    i++
+  }, 800)
+
+  try {
+    const res = await fetch('https://sumi-ai-backend.vercel.app/api/upscale_v1', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          image: selectedFileBase64
+        })
+      }
+    )
+
+    const json = await res.json()
+    if (!json.result) throw new Error()
+
+    clearInterval(dotInterval)
+
+    beforeImg.src = selectedFileBase64
+    afterImg.src = json.result
+
+    const blobRes = await fetch(json.result)
+    const blob = await blobRes.blob()
+
+    document.getElementById('afterSize').textContent =
+    formatSize(blob.size)
+
+    uploadBox.style.display = 'none'
+    compareWrap.hidden = false
+    upscaleBtn.style.display = 'none'
+  } catch (e) {
+    clearInterval(dotInterval)
+    upscaleBtn.textContent = 'Failed'
+    upscaleBtn.disabled = false
+    uploadBox.style.pointerEvents = 'auto'
+  }
+})
+
+const changeBtn = document.getElementById('changeImageBtn')
+
+if (changeBtn) {
+  changeBtn.addEventListener('click', () => {
+    uploadBox.style.pointerEvents = 'auto'
+    input.value = ''
+    input.click()
+  })
+}
+
+const downloadBtn = document.getElementById('downloadBtn')
+
+if (downloadBtn) {
+  downloadBtn.addEventListener('click', async () => {
+    if (!afterImg.src) return
+
+    const res = await fetch(afterImg.src)
+    const blob = await res.blob()
+
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'upscale_' + Date.now() + '.jpg'
+
+    document.body.appendChild(a)
+    a.click()
+    a.remove()
+    URL.revokeObjectURL(url)
+  })
+}
+
+function formatSize(bytes) {
+  if (bytes < 1024) return bytes + ' B'
+  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(2) + ' KB'
+  return (bytes / (1024 * 1024)).toFixed(2) + ' MB'
+}
