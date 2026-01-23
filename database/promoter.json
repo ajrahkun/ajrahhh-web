@@ -1,6 +1,6 @@
 [
   { "name": "Alisa", "income": 0, "acc": "https://www.tiktok.com/@alisa_wangyy" },
-  { "name": "Ano", "income": 0, "acc": "https://www.tiktok.com/@anowangyy" },
+  { "name": "Ano", "income": 5000, "acc": "https://www.tiktok.com/@anowangyy" },
   { "name": "Apri", "income": 0, "acc": "https://www.tiktok.com/@apripreset8" },
   { "name": "Aris", "income": 50000, "acc": "https://www.tiktok.com/@4ris_prst" },
   { "name": "Arthur", "income": 0, "acc": "https://www.tiktok.com/@arthurrprst" },
@@ -12,13 +12,13 @@
   { "name": "Cheya", "income": 0, "acc": "https://www.tiktok.com/@xansprst" },
   { "name": "Daf", "income": 0, "acc": "https://www.tiktok.com/@dafajakali" },
   { "name": "Ditz", "income": 30000, "acc": "https://www.tiktok.com/@ditz_wangyy" },
-  { "name": "Dryan", "income": 0, "acc": "https://www.tiktok.com/@dryannwangyy" },
+  { "name": "Dryan", "income": 10000, "acc": "https://www.tiktok.com/@dryannwangyy" },
   { "name": "Eko", "income": 0, "acc": "https://www.tiktok.com/@ekofansg4" },
   { "name": "Febry", "income": 0, "acc": "https://www.tiktok.com/@febrypreset" },
   { "name": "Guzz", "income": 0 },
   { "name": "Hadrul", "income": 0, "acc": "https://www.tiktok.com/@hadrul_..tiktok" },
-  { "name": "Ilzz", "income": 0, "acc": "https://www.tiktok.com/@ilzz_4sik_5ekali" },
-  { "name": "Iwii", "income": 20000, "acc": "https://www.tiktok.com/@iwiipreset" },
+  { "name": "Ilzz", "income": 10000, "acc": "https://www.tiktok.com/@ilzz_4sik_5ekali" },
+  { "name": "Iwii", "income": 25000, "acc": "https://www.tiktok.com/@iwiipreset" },
   { "name": "Iyla", "income": 0, "acc": "https://www.tiktok.com/@iylapreset" },
   { "name": "Jiro", "income": 0, "acc": "https://www.tiktok.com/@hamz.history" },
   { "name": "Kalz", "income": 30000, "acc": "https://www.tiktok.com/@kalz_kyoken2" },
@@ -55,5 +55,6 @@
   { "name": "Zeyx", "income": 5000, "acc": "https://www.tiktok.com/@zeyxprst" },
   { "name": "Himzzy", "income": 0, "acc": "https://www.tiktok.com/@himzzywangyy00" },
   { "name": "Kenny", "income": 0, "acc": "https://www.tiktok.com/@kennyprst_4" },
-  { "name": "Yan", "income": 0, "acc": "https://www.tiktok.com/@yannsenpaiii" }
+  { "name": "Yan", "income": 0, "acc": "https://www.tiktok.com/@yannsenpaiii" },
+  { "name": "Hamm", "income": 10000, "acc": "https://www.tiktok.com/@rizfivemb" }
 ]
