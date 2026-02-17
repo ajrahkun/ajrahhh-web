@@ -1,1 +1,153 @@
-const _0x2c0558=_0x237c;function _0x1ceb(){const _0x39ab58=['60948SIhBDO','scale-95','body','remove','replaceState','key','F12','scale-100','hidden','classList','contextmenu','40JSEbqq','ctrlKey','357931HgNIfA','innerWidth','pointer-events-none','style','1443748lADKyS','forEach','22XzgQYZ','opacity','closeModal','addEventListener','sideMenu','getElementById','scrollIntoView','1307700DbvnYo','add','infoBtn','194550WfyhjJ','click','overflow-hidden','querySelectorAll','donasiModal','opacity-0','translate-x-full','https://ajrahhh.my.id','shiftKey','firstElementChild','3470733RnoXWP','hash','loading','donasiBtn','overflow','div','preventDefault','overlay','querySelector','closeBtn','display','smooth','outerWidth','href','opacity-100','devtoolsModal','transition','load','start','a[href^=\x22#\x22]','483370dtsBFm'];_0x1ceb=function(){return _0x39ab58;};return _0x1ceb();}(function(_0x44539d,_0x211ffd){const _0x4a34ba=_0x237c,_0x22552a=_0x44539d();while(!![]){try{const _0x1f73e0=parseInt(_0x4a34ba(0x1e0))/0x1+-parseInt(_0x4a34ba(0x1f4))/0x2*(parseInt(_0x4a34ba(0x1e1))/0x3)+-parseInt(_0x4a34ba(0x1f2))/0x4+parseInt(_0x4a34ba(0x1bf))/0x5+parseInt(_0x4a34ba(0x1c2))/0x6+parseInt(_0x4a34ba(0x1ee))/0x7*(-parseInt(_0x4a34ba(0x1ec))/0x8)+parseInt(_0x4a34ba(0x1cc))/0x9;if(_0x1f73e0===_0x211ffd)break;else _0x22552a['push'](_0x22552a['shift']());}catch(_0x239c66){_0x22552a['push'](_0x22552a['shift']());}}}(_0x1ceb,0x4ed4e));const toolBtn=document[_0x2c0558(0x1f9)]('toolBtn'),sideMenu=document['getElementById'](_0x2c0558(0x1f8)),closeBtn=document[_0x2c0558(0x1f9)](_0x2c0558(0x1d5)),overlay=document[_0x2c0558(0x1f9)](_0x2c0558(0x1d3));function _0x237c(_0x51756d,_0xa3fcc8){const _0x1ceba0=_0x1ceb();return _0x237c=function(_0x237c9a,_0x59f2e0){_0x237c9a=_0x237c9a-0x1bf;let _0x24e515=_0x1ceba0[_0x237c9a];return _0x24e515;},_0x237c(_0x51756d,_0xa3fcc8);}toolBtn[_0x2c0558(0x1f7)](_0x2c0558(0x1c3),()=>{const _0x370e49=_0x2c0558;sideMenu['classList'][_0x370e49(0x1e4)](_0x370e49(0x1c8)),overlay[_0x370e49(0x1ea)][_0x370e49(0x1e4)](_0x370e49(0x1c7),_0x370e49(0x1f0)),overlay[_0x370e49(0x1ea)][_0x370e49(0x1c0)](_0x370e49(0x1da)),document[_0x370e49(0x1e3)][_0x370e49(0x1f1)][_0x370e49(0x1d0)]=_0x370e49(0x1e9);});function closeMenu(){const _0x5706cc=_0x2c0558;sideMenu['classList'][_0x5706cc(0x1c0)]('translate-x-full'),overlay[_0x5706cc(0x1ea)][_0x5706cc(0x1e4)](_0x5706cc(0x1da)),overlay[_0x5706cc(0x1ea)][_0x5706cc(0x1c0)](_0x5706cc(0x1c7),_0x5706cc(0x1f0)),document[_0x5706cc(0x1e3)][_0x5706cc(0x1f1)][_0x5706cc(0x1d0)]='';}closeBtn[_0x2c0558(0x1f7)](_0x2c0558(0x1c3),closeMenu),overlay[_0x2c0558(0x1f7)](_0x2c0558(0x1c3),closeMenu),window[_0x2c0558(0x1f7)](_0x2c0558(0x1dd),()=>{const _0x348b96=_0x2c0558;window['location'][_0x348b96(0x1cd)]&&history[_0x348b96(0x1e5)](null,null,'\x20');}),document[_0x2c0558(0x1c5)](_0x2c0558(0x1df))[_0x2c0558(0x1f3)](_0x4bc7c8=>{const _0x1a2043=_0x2c0558;_0x4bc7c8[_0x1a2043(0x1f7)](_0x1a2043(0x1c3),function(_0x2bec23){const _0x1df49a=_0x1a2043;_0x2bec23['preventDefault']();const _0x16d449=document[_0x1df49a(0x1d4)](this['getAttribute'](_0x1df49a(0x1d9)));_0x16d449&&_0x16d449[_0x1df49a(0x1fa)]({'behavior':_0x1df49a(0x1d7),'block':_0x1df49a(0x1de)});});}),window[_0x2c0558(0x1f7)]('load',()=>{const _0x5e019a=_0x2c0558,_0x1f6177=document[_0x5e019a(0x1f9)](_0x5e019a(0x1ce));_0x1f6177[_0x5e019a(0x1f1)][_0x5e019a(0x1dc)]='opacity\x200.5s',_0x1f6177[_0x5e019a(0x1f1)][_0x5e019a(0x1f5)]='0',setTimeout(()=>_0x1f6177[_0x5e019a(0x1f1)][_0x5e019a(0x1d6)]='none',0x1f4);});const donasiBtn=document[_0x2c0558(0x1f9)](_0x2c0558(0x1cf)),donasiModal=document[_0x2c0558(0x1f9)](_0x2c0558(0x1c6)),closeModal=document[_0x2c0558(0x1f9)](_0x2c0558(0x1f6));function openModal(){const _0x10bb36=_0x2c0558;donasiModal[_0x10bb36(0x1ea)][_0x10bb36(0x1e4)](_0x10bb36(0x1e9)),setTimeout(()=>{const _0x5431a8=_0x10bb36;donasiModal[_0x5431a8(0x1ea)][_0x5431a8(0x1c0)]('opacity-100'),donasiModal[_0x5431a8(0x1cb)][_0x5431a8(0x1ea)][_0x5431a8(0x1c0)](_0x5431a8(0x1e8));},0xa);}function closeModalFunc(){const _0x2c37f8=_0x2c0558;donasiModal[_0x2c37f8(0x1ea)][_0x2c37f8(0x1e4)](_0x2c37f8(0x1da)),donasiModal[_0x2c37f8(0x1cb)][_0x2c37f8(0x1ea)][_0x2c37f8(0x1e4)](_0x2c37f8(0x1e8)),setTimeout(()=>{const _0x4e43c9=_0x2c37f8;donasiModal['classList'][_0x4e43c9(0x1c0)]('hidden');},0x12c);}donasiBtn[_0x2c0558(0x1f7)](_0x2c0558(0x1c3),openModal),closeModal[_0x2c0558(0x1f7)]('click',closeModalFunc),donasiModal[_0x2c0558(0x1f7)](_0x2c0558(0x1c3),_0x5a33bf=>{if(_0x5a33bf['target']===donasiModal)closeModalFunc();});const infoBtn=document[_0x2c0558(0x1f9)](_0x2c0558(0x1c1)),infoModal=document[_0x2c0558(0x1f9)]('infoModal'),modalCard=infoModal[_0x2c0558(0x1d4)](_0x2c0558(0x1d1)),infoModalCloseBtn=document[_0x2c0558(0x1f9)]('infoModalCloseBtn');infoBtn[_0x2c0558(0x1f7)](_0x2c0558(0x1c3),()=>{const _0x373622=_0x2c0558;infoModal[_0x373622(0x1ea)][_0x373622(0x1e4)](_0x373622(0x1c7),_0x373622(0x1f0)),infoModal[_0x373622(0x1ea)][_0x373622(0x1c0)](_0x373622(0x1da)),modalCard[_0x373622(0x1ea)]['remove'](_0x373622(0x1e2)),modalCard['classList'][_0x373622(0x1c0)](_0x373622(0x1e8)),document[_0x373622(0x1e3)][_0x373622(0x1ea)]['add']('overflow-hidden');}),infoModal[_0x2c0558(0x1f7)](_0x2c0558(0x1c3),_0x36f62c=>{const _0x2dd887=_0x2c0558;_0x36f62c['target']===infoModal&&(infoModal[_0x2dd887(0x1ea)][_0x2dd887(0x1e4)](_0x2dd887(0x1da)),infoModal[_0x2dd887(0x1ea)][_0x2dd887(0x1c0)](_0x2dd887(0x1c7),_0x2dd887(0x1f0)),modalCard[_0x2dd887(0x1ea)][_0x2dd887(0x1e4)](_0x2dd887(0x1e8)),modalCard[_0x2dd887(0x1ea)][_0x2dd887(0x1c0)](_0x2dd887(0x1e2)),document['body'][_0x2dd887(0x1ea)][_0x2dd887(0x1e4)](_0x2dd887(0x1c4)));}),infoModalCloseBtn[_0x2c0558(0x1f7)]('click',()=>{const _0x13c1a9=_0x2c0558;infoModal[_0x13c1a9(0x1ea)][_0x13c1a9(0x1e4)]('opacity-100'),infoModal[_0x13c1a9(0x1ea)]['add']('opacity-0',_0x13c1a9(0x1f0)),modalCard[_0x13c1a9(0x1ea)][_0x13c1a9(0x1e4)](_0x13c1a9(0x1e8)),modalCard[_0x13c1a9(0x1ea)][_0x13c1a9(0x1c0)](_0x13c1a9(0x1e2)),document['body']['classList'][_0x13c1a9(0x1e4)]('overflow-hidden');}),document[_0x2c0558(0x1f7)](_0x2c0558(0x1eb),_0x1babbd=>_0x1babbd[_0x2c0558(0x1d2)]()),document[_0x2c0558(0x1f7)]('keydown',_0x3e3b39=>{const _0x8377c2=_0x2c0558;(_0x3e3b39[_0x8377c2(0x1e6)]===_0x8377c2(0x1e7)||_0x3e3b39[_0x8377c2(0x1ed)]&&_0x3e3b39[_0x8377c2(0x1ca)]&&(_0x3e3b39[_0x8377c2(0x1e6)]==='I'||_0x3e3b39[_0x8377c2(0x1e6)]==='C'||_0x3e3b39[_0x8377c2(0x1e6)]==='J')||_0x3e3b39[_0x8377c2(0x1ed)]&&_0x3e3b39[_0x8377c2(0x1e6)]==='U')&&_0x3e3b39[_0x8377c2(0x1d2)]();}),(function(){const _0xa15026=_0x2c0558;let _0xf91749=![];const _0x534b89=0xa0,_0x900e18=document[_0xa15026(0x1f9)](_0xa15026(0x1db)),_0x4325fa=_0x900e18['querySelector']('div');function _0x407213(){const _0x1612ab=_0xa15026;_0x900e18['classList'][_0x1612ab(0x1e4)](_0x1612ab(0x1c7),_0x1612ab(0x1f0)),_0x900e18[_0x1612ab(0x1ea)][_0x1612ab(0x1c0)](_0x1612ab(0x1da)),_0x4325fa[_0x1612ab(0x1ea)][_0x1612ab(0x1e4)]('scale-95'),_0x4325fa[_0x1612ab(0x1ea)][_0x1612ab(0x1c0)](_0x1612ab(0x1e8)),document['body'][_0x1612ab(0x1ea)]['add'](_0x1612ab(0x1c4)),setTimeout(()=>{const _0x16b4e8=_0x1612ab;window['location']['href']=_0x16b4e8(0x1c9);},0x3e8);}setInterval(()=>{const _0x54777=_0xa15026;window[_0x54777(0x1d8)]-window[_0x54777(0x1ef)]>_0x534b89||window['outerHeight']-window['innerHeight']>_0x534b89?!_0xf91749&&(_0xf91749=!![],_0x407213()):_0xf91749=![];},0x3e8);}());
+const toolBtn = document.getElementById('toolBtn');
+const sideMenu = document.getElementById('sideMenu');
+const closeBtn = document.getElementById('closeBtn');
+const overlay = document.getElementById('overlay');
+
+toolBtn.addEventListener('click', () => {
+  sideMenu.classList.remove('translate-x-full');
+  overlay.classList.remove('opacity-0', 'pointer-events-none');
+  overlay.classList.add('opacity-100');
+  document.body.style.overflow = 'hidden';
+});
+
+function closeMenu() {
+  sideMenu.classList.add('translate-x-full');
+  overlay.classList.remove('opacity-100');
+  overlay.classList.add('opacity-0', 'pointer-events-none');
+  document.body.style.overflow = '';
+}
+
+closeBtn.addEventListener('click', closeMenu);
+overlay.addEventListener('click', closeMenu);
+
+window.addEventListener('load', () => {
+  if (window.location.hash) {
+    history.replaceState(null, null, ' ');
+  }
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+window.addEventListener('load', () => {
+  const loading = document.getElementById('loading');
+
+  setTimeout(() => {
+    loading.style.transition = 'opacity 0.5s';
+    loading.style.opacity = '0';
+
+    setTimeout(() => {
+      loading.style.display = 'none';
+    }, 500);
+  }, 1000); 
+});
+
+const donasiBtn = document.getElementById('donasiBtn');
+const donasiModal = document.getElementById('donasiModal');
+const closeModal = document.getElementById('closeModal');
+
+function openModal() {
+  donasiModal.classList.remove('hidden');
+  setTimeout(() => {
+    donasiModal.classList.add('opacity-100');
+    donasiModal.firstElementChild.classList.add('scale-100');
+  }, 10);
+}
+
+function closeModalFunc() {
+  donasiModal.classList.remove('opacity-100');
+  donasiModal.firstElementChild.classList.remove('scale-100');
+  setTimeout(() => {
+    donasiModal.classList.add('hidden');
+  }, 300);
+}
+
+donasiBtn.addEventListener('click', openModal);
+closeModal.addEventListener('click', closeModalFunc);
+donasiModal.addEventListener('click', e => {
+  if (e.target === donasiModal) closeModalFunc();
+});
+
+const infoBtn = document.getElementById('infoBtn');
+const infoModal = document.getElementById('infoModal');
+const modalCard = infoModal.querySelector('div');
+const infoModalCloseBtn = document.getElementById('infoModalCloseBtn');
+
+infoBtn.addEventListener('click', () => {
+  infoModal.classList.remove('opacity-0', 'pointer-events-none');
+  infoModal.classList.add('opacity-100');
+  modalCard.classList.remove('scale-95');
+  modalCard.classList.add('scale-100');
+  document.body.classList.add('overflow-hidden');
+});
+
+infoModal.addEventListener('click', e => {
+  if (e.target === infoModal) {
+    infoModal.classList.remove('opacity-100');
+    infoModal.classList.add('opacity-0', 'pointer-events-none');
+    modalCard.classList.remove('scale-100');
+    modalCard.classList.add('scale-95');
+    document.body.classList.remove('overflow-hidden');
+  }
+});
+
+infoModalCloseBtn.addEventListener('click', () => {
+  infoModal.classList.remove('opacity-100');
+  infoModal.classList.add('opacity-0', 'pointer-events-none');
+  modalCard.classList.remove('scale-100');
+  modalCard.classList.add('scale-95');
+  document.body.classList.remove('overflow-hidden');
+});
+
+document.addEventListener('contextmenu', e => e.preventDefault());
+
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' ||
+    (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'C' || e.key === 'J')) ||
+    (e.ctrlKey && e.key === 'U')
+  ) {
+    e.preventDefault();
+  }
+});
+
+(function() {
+  let devtoolsOpen = false;
+  const threshold = 160;
+
+  const modal = document.getElementById('devtoolsModal');
+  const modalCard = modal.querySelector('div');
+
+  function showModal() {
+    modal.classList.remove('opacity-0', 'pointer-events-none');
+    modal.classList.add('opacity-100');
+    modalCard.classList.remove('scale-95');
+    modalCard.classList.add('scale-100');
+    document.body.classList.add('overflow-hidden');
+
+    setTimeout(() => {
+      window.location.href = 'https://ajrahhh.my.id';
+    }, 1000);
+  }
+
+  setInterval(() => {
+    if (
+      window.outerWidth - window.innerWidth > threshold ||
+      window.outerHeight - window.innerHeight > threshold
+    ) {
+      if (!devtoolsOpen) {
+        devtoolsOpen = true;
+        showModal();
+      }
+    } else {
+      devtoolsOpen = false;
+    }
+  }, 1000);
+})();
